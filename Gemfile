@@ -7,6 +7,7 @@ ruby '2.7.1'
 gem 'rails', '~> 6.1.4'
 
 gem 'pg'
+gem 'simple_form'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
