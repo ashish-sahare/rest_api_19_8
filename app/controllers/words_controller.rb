@@ -1,2 +1,2 @@
-class Words < ActionController
+class WordsController < ApplicationController
 end
