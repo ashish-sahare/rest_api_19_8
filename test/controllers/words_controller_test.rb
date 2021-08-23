@@ -5,7 +5,7 @@ class WordsControllerTest < ActionDispatch::IntegrationTest
     describe 'GET index' do
       context 'when some words present' do
         it 'assigns @words' do
-          word = Word.create
+          word = Word.create(value: 'cat', language:'english')
           get :index
           expect(assigns(:words)).to eq([word])
         end
